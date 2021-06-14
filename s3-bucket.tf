@@ -10,4 +10,10 @@ module "s3_bucket" {
     enabled = true
   }
 
+  tags = {
+    Department = "IT"
+    Billable   = "true"
+
+  }
+
 }
